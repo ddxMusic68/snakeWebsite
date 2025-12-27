@@ -12,7 +12,8 @@ git clone https://github.com/ddxMusic68/snakeWebsite
 cd project
 python -u ./server.py
 
-```## structure
+## structure
+```
 src
 │--leaderboard.json    -holds leaderboard information
 │--server.py    -runs server
@@ -26,7 +27,7 @@ src
     │--base.html    -base html file
     │--leaderBoard.html    -extends base.html to a leaderboard
     │--snake.html    -extends base.html to the main snake game
-
+```
 ## Contributing
 Pull requests are welcome!
 
