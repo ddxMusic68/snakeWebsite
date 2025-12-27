@@ -8,10 +8,11 @@ Jinja2 3.1.6
 bootstrap 5
 
 ## installation
+```
 git clone https://github.com/ddxMusic68/snakeWebsite
 cd project
 python -u ./server.py
-
+```
 ## structure
 ```
 src
