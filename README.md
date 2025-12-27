@@ -33,7 +33,11 @@ Pull requests are welcome!
 
 ## Licence
 MIT
+<div>
+    <img width="456" height="853" alt="image" src="https://github.com/user-attachments/assets/ed8bc5c2-36d8-4db9-abdf-23cf56ce1547" />
+    <img width="721" height="618" alt="image" src="https://github.com/user-attachments/assets/c837235f-d405-4852-985c-e69f45a2e4b6" />
+</div>
+<div>
+    <img width="1776" height="903" alt="image" src="https://github.com/user-attachments/assets/1f278b92-7f3f-43d2-8153-87b3fb3f0e0e" />
+</div>
 
-<img width="456" height="853" alt="image" src="https://github.com/user-attachments/assets/ed8bc5c2-36d8-4db9-abdf-23cf56ce1547" />
-<img width="721" height="618" alt="image" src="https://github.com/user-attachments/assets/c837235f-d405-4852-985c-e69f45a2e4b6" />
-<img width="1776" height="903" alt="image" src="https://github.com/user-attachments/assets/1f278b92-7f3f-43d2-8153-87b3fb3f0e0e" />
