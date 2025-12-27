@@ -36,6 +36,7 @@ Pull requests are welcome!
 ## Licence
 MIT
 
+## pictures
 <table>
   <tr>
     <td><img width="456" height="853" alt="image" src="https://github.com/user-attachments/assets/ed8bc5c2-36d8-4db9-abdf-23cf56ce1547" /></td>
