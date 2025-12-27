@@ -2,11 +2,12 @@
 I made a fullstack website where you can play snake and it comes with a leaderboard
 
 ## versions
+```
 python 3.11.9
 Flask 3.1.2
 Jinja2 3.1.6
 bootstrap 5
-
+```
 ## installation
 ```
 git clone https://github.com/ddxMusic68/snakeWebsite
