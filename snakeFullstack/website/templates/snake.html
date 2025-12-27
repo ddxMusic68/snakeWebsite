@@ -1,0 +1,46 @@
+{% extends "./base.html" %}
+{% block title %}Snake{% endblock %}
+{%block content%}
+    <div class="hidden"><div>hi</div></div>
+    <div class="d-flex justify-content-center"> <!-- we probs want container -->
+        <div class="mt-4 border game-border flex-column" style="height:80%;aspect-ratio:1/1;">
+            <div class="gameover h-100 d-flex flex-column justify-content-center align-items-center d-none p-0">
+                <div class="row justify-content-center w-100 fs-1 text-nowrap text-center text-danger">
+                    Game over!
+                </div>
+                <div class="row justify-content-center w-100-md">
+                    <a class="col-4 btn btn-primary row text-nowrap  " style="height: 40px;width:130px;" href="/">Play again!</a>
+                </div>
+            </div>
+            <div class="pixel-container d-flex flex-wrap" style="width:100%;height:100%;">
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <h3 id="score">Score: </h3>
+    </div>
+    <div class="container d-md-none">
+        <div class="row justify-content-center">
+            <button class="col-2 btn btn-primary wasd" style="width:80px;aspect-ratio:1/1;">W</button>
+        </div>
+        <div class="row justify-content-center ">
+            <button class="col-2 btn btn-primary wasd" style="width:80px;aspect-ratio:1/1;">A</button>
+            <button class="col-2 btn btn-primary wasd" style="width:80px;aspect-ratio:1/1;">S</button>
+            <button class="col-2 btn btn-primary wasd" style="width:80px;aspect-ratio:1/1;">D</button>
+        </div>
+    </div>
+    <div class="container d-none form-container mt-5">
+        <form class="form" method="post">
+            <h4 class="mt-5 text-white text">add score to leaderboard:</h4>
+            <div class="row justify-content-center mt-5">
+                <input class="nameInput" type="text" name="i1" onkeyup="this.value = this.value.toUpperCase();" maxlength="1"/>
+                <input class="nameInput" type="text" name="i2" onkeyup="this.value = this.value.toUpperCase();" maxlength="1"/>
+                <input class="nameInput" type="text" name="i3" onkeyup="this.value = this.value.toUpperCase();" maxlength="1"/>
+                <input type="hidden" name="score" value="0" id="scoreInput"/>
+                <button type="submit" class="col-1 btn btn-primary" style="width:70px;">submit</button>
+            </div>
+        </form>
+    </div>
+    <div style="height:500px;"></div>
+
+{%endblock%} 

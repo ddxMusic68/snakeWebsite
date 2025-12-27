@@ -1,0 +1,43 @@
+{% extends "./base.html" %}
+{% block title %}Leader Board{% endblock %}
+{%block content%}
+    <table class="table table-hover table-bordered">
+        <thead class="">
+            <tr class="table-dark">
+                <td class="text-white ">Ranking</td>
+                <td class="text-white ">Name</td>
+                <td class="text-white ">Score</td>
+            </tr>
+        </thead>
+        <tbody class="">
+        {% for spot, tuple in leaderboard %}
+        {% if spot=="1"%}
+            <tr class="table-dark">
+                <td class="text-warning ">{{spot}}</td>
+                <td class="text-white ">{{tuple["name"]}}</td>
+                <td class="text-white ">{{tuple["score"]}}</td>
+            </tr>
+        {% elif spot=="2"%}
+            <tr class="table-dark">
+                <td class="text-secondary ">{{spot}}</td>
+                <td class="text-white ">{{tuple["name"]}}</td>
+                <td class="text-white ">{{tuple["score"]}}</td>
+            </tr>
+        {% elif spot=="3"%}
+            <tr class="table-dark">
+                <td class="text-danger ">{{spot}}</td>
+                <td class="text-white ">{{tuple["name"]}}</td>
+                <td class="text-white ">{{tuple["score"]}}</td>
+            </tr>
+        {% else %}
+            <tr class="table-dark">
+                <td class="text-white ">{{spot}}</td>
+                <td class="text-white ">{{tuple["name"]}}</td>
+                <td class="text-white ">{{tuple["score"]}}</td>
+            </tr>
+        {% endif%}
+        {% endfor %}
+        </tbody>
+    </table>
+{%endblock%} 
+ 

@@ -1,0 +1,58 @@
+body {
+    background:rgb(0, 0, 0);
+}
+.game-border {
+    border:1px;
+    border-color:white;
+    border-style:solid;
+width: min(80vmin, 90vw);
+height: min(80vmin, 90vh);
+aspect-ratio: 1 / 1;
+max-width: 95%;
+margin: 0 auto;
+}
+
+.pixel-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+/* ensure pixel sizing stays consistent inside the square */
+.pixel {
+    box-sizing: border-box;
+    width:10%;
+    aspect-ratio: 1 / 1;
+}
+.snake {
+    background-color:green;
+}
+.apple {
+    background-color:red;
+}
+.gameOverText {
+    position:absolute;
+}
+#score {
+    color:white;
+}
+.hidden {
+    display: none;
+}
+.nameInput {
+    background:black;
+    color:white;
+    border:0px;
+    border-bottom:1px;
+    border-color:white;
+    border-style:solid;
+    margin-right:15px;
+    width:30px;
+    padding:0px;
+    padding-left:10px;
+}
+.black-background {
+    background-color:black;
+}
