@@ -12,7 +12,7 @@ git clone https://github.com/ddxMusic68/snakeWebsite
 cd project
 python -u ./server.py
 
-## structure
+```## structure
 src
 │--leaderboard.json    -holds leaderboard information
 │--server.py    -runs server
